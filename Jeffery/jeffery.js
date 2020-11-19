@@ -1,4 +1,5 @@
 var slideIndex = 1;
+dots[slideIndex-1].className += " active";
 showSlides(slideIndex);
 
 // Next/previous controls
