@@ -1,6 +1,5 @@
 var slideIndex = 1;
-dots[slideIndex-1].className += " active";
-showSlides(slideIndex);
+showSlides(2);
 
 // Next/previous controls
 function plusSlides(n) {
