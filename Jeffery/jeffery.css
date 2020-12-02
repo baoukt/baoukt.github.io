@@ -1,6 +1,7 @@
 /* All body elements no margins */
 body{
   margin:0;
+  height:100vh;
 }
 
 /*Banner container */
@@ -8,7 +9,7 @@ body{
   position: relative;
   background-color: darkorange;
   width:100%;
-  height:40px;
+  height:5%;
   margin:0;
   padding:0;
 }
@@ -17,8 +18,10 @@ body{
 .urgent-message{
   color:white;
   font-family: Helvetica, Sans-Serif;
-  font-size:18px;
-  position: absolute;
+  font-size:1em;
+  position: relative;
+  text-align:center;
+  width:100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);  margin-top: 0;
@@ -31,23 +34,39 @@ body{
 .slideshow-container {
   position: relative;
   margin: auto;
+  height:50%;
 }
 
 /* Set images to be same size */
 .slideshow-image{
   object-fit: cover;
-  height:400px;
+  filter: brightness(70%);
+  height:100%;
 }
 
-/* Logo overlay */
-.overlay-container{
+.overlay-text{
+  position:relative;
+  color: #f2f2f2;
+  font-size: 15vh;
+  left:5%;
+  bottom: 90%;
+  width: 100%;
+  text-align: left;
+  font-family: 'Bebas Neue', cursive;
+
+}
+
+/* Logo (image) overlay */
+/*.overlay-container{
   position:absolute;
   width:500px;
-}
+}*/
 
 /* Hide the images by default */
 .mySlides {
+  position:relative;
   display: none;
+  height:100%;
 }
 
 /* Next & previous buttons */
@@ -125,7 +144,7 @@ body{
   color:darkorange;
   font-family: 'Bebas Neue', cursive;
   font-weight: lighter;
-  font-size:45px;
+  font-size:7.5vh;
 }
 
 .aboutus{
@@ -137,9 +156,10 @@ body{
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  height:60px;
-  width:200px;
-  font-size: 20px;
+  height:6vh;
+  width:12vw;
+  font-size: 2vh;
+  border-radius: 12px;
 }
 
 .mission{
@@ -151,9 +171,10 @@ body{
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  height:60px;
-  width:200px;
-  font-size: 20px;
+  height:6vh;
+  width:12vw;
+  font-size: 2vh;
+  border-radius: 12px;
 }
 
 
