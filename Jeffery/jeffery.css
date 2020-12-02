@@ -1,18 +1,23 @@
+/* All body elements no margins */
 body{
   margin:0;
 }
+
+/*Banner container */
 .urgent-banner{
   position: relative;
   background-color: darkorange;
   width:100%;
-  height:30px;
+  height:40px;
   margin:0;
   padding:0;
 }
 
+/*Banner text */
 .urgent-message{
   color:white;
   font-family: Helvetica, Sans-Serif;
+  font-size:18px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -22,18 +27,22 @@ body{
   margin-right:0;
 }
 
-
-
 /* Slideshow container */
 .slideshow-container {
   position: relative;
   margin: auto;
 }
 
-img{
+/* Set images to be same size */
+.slideshow-image{
   object-fit: cover;
   height:400px;
+}
 
+/* Logo overlay */
+.overlay-container{
+  position:absolute;
+  width:500px;
 }
 
 /* Hide the images by default */
@@ -68,25 +77,6 @@ img{
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
 
 /* The dots/bullets/indicators */
 .dot {
@@ -121,3 +111,62 @@ img{
   from {opacity: .4}
   to {opacity: 1}
 }
+
+.newmember-container{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+  margin-right:50px;
+  margin-top:10px;
+}
+
+.newmember-text{
+  color:darkorange;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: lighter;
+  font-size:45px;
+}
+
+.aboutus{
+  background-color: #009cad;
+  font-family: 'Nunito', sans-serif;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height:60px;
+  width:200px;
+  font-size: 20px;
+}
+
+.mission{
+  background-color: #009cad;
+  font-family: 'Nunito', sans-serif;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height:60px;
+  width:200px;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
