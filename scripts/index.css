@@ -1,1 +1,250 @@
+/* All body elements no margins */
+body{
+  margin:0;
+  height:100vh;
+  background-color:lightgray;
+}
 
+/*Banner container */
+.urgent-banner{
+  position: relative;
+  background-color: darkorange;
+  width:100%;
+  height:5%;
+  margin:0;
+  padding:0;
+}
+
+/*Banner text */
+.urgent-message{
+  color:white;
+  font-family: Helvetica, Sans-Serif;
+  font-size:1em;
+  position: relative;
+  text-align:center;
+  width:100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right:0;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+  height:50%;
+}
+
+/* Set images to be same size */
+.slideshow-image{
+  object-fit: cover;
+  filter: brightness(70%);
+  height:100%;
+}
+
+.overlay-text{
+  position:relative;
+  color: #f2f2f2;
+  font-size: 15vh;
+  left:5%;
+  bottom: 90%;
+  width: 100%;
+  text-align: left;
+  font-family: 'Bebas Neue', cursive;
+
+}
+
+/* Logo (image) overlay */
+/*.overlay-container{
+  position:absolute;
+  width:500px;
+}*/
+
+/* Hide the images by default */
+.mySlides {
+  position:relative;
+  display: none;
+  height:100%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 2vh;
+  width: 2vh;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.newmember-container{
+  display:flex;
+  background-color:white;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:10px;
+}
+
+.newmember-text{
+  color:darkorange;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: lighter;
+  font-size:7.5vh;
+  margin-left: 20px;
+
+}
+
+.aboutus{
+  background-color: #009cad;
+  font-family: 'Nunito', sans-serif;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  height:7vh;
+  width:13vw;
+  font-size: 2.5vh;
+  border-radius: 12px;
+  font-weight:bolder;
+
+}
+
+.mission{
+  background-color: #009cad;
+  font-family: 'Nunito', sans-serif;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  height:7vh;
+  width:13vw;
+  font-size: 2.5vh;
+  border-radius: 12px;
+  margin-right:50px;
+  font-weight:bolder;
+}
+
+.yearly-pic-container{
+  position:relative;
+  height:70%;
+  width:55%;
+  left:20px;
+  top:5vh;
+}
+
+.yearly-pic{
+  position:relative;
+  height:100%;
+  width:100%;
+  margin:left:50px;
+}
+
+.contact-container{
+  position:absolute;
+  margin-top:-65vh;
+  margin-left:60%;
+  background-color:white;
+  width:31%;
+  padding:0% 4% 4% 4%;
+  height:25%;
+}
+
+.contact-title{
+  text-align: center;
+  color:darkorange;
+  font-family: 'Bebas Neue', cursive;
+  font-size:6vh;
+  font-weight: lighter;
+  text-decoration: underline;
+  margin-bottom: -0.3em;
+}
+
+.contact-info{
+  color:#009cad;
+  font-family: 'Bebas Neue', cursive;
+  font-size:3.5vh;
+  font-weight: lighter;
+}
+
+.announcement-container{
+  position:absolute;
+  margin-top:-28vh;
+  margin-left:60%;
+  background-color:white;
+  padding:0% 4% 4% 4%;
+  height:24.5%;
+  width:31%;
+}
+
+.announcement-title{
+  text-align: center;
+  color:darkorange;
+  font-family: 'Bebas Neue', cursive;
+  font-size:6vh;
+  font-weight: lighter;
+  text-decoration: underline;
+  margin-bottom: -0.1em;
+}
+
+ul{
+  color:#009cad;
+  font-family: 'Bebas Neue', cursive;
+  font-size:3.5vh;
+  font-weight: lighter;
+}
