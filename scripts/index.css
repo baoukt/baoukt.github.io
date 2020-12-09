@@ -2,6 +2,7 @@
 body{
   margin:0;
   height:100vh;
+  overflow-x: hidden;
   background-color:lightgray;
 }
 
@@ -190,12 +191,18 @@ body{
   font-weight:bolder;
 }
 
-.yearly-pic-container{
+.absolute-container{
   position:relative;
+  height:100%;
+  width:100%;
+}
+
+.yearly-pic-container{
+  position:absolute;
   height:70%;
   width:55%;
-  left:20px;
-  top:5vh;
+  margin-left:43%;
+  margin-top:5vh;
 }
 
 .yearly-pic{
@@ -207,8 +214,8 @@ body{
 
 .contact-container{
   position:absolute;
-  margin-top:-65vh;
-  margin-left:60%;
+  margin-top:42vh;
+  margin-left:2%;
   background-color:white;
   width:31%;
   padding:0% 4% 4% 4%;
@@ -234,11 +241,11 @@ body{
 
 .announcement-container{
   position:absolute;
-  margin-top:-28vh;
-  margin-left:60%;
+  margin-top:5vh;
+  margin-left:2%;
   background-color:white;
   padding:0% 4% 4% 4%;
-  height:24.5%;
+  height:25%;
   width:31%;
 }
 
