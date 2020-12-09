@@ -22,7 +22,6 @@ body{
   font-size:1em;
   position: relative;
   text-align:center;
-  width:100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);  
@@ -30,6 +29,17 @@ body{
   margin-bottom: 0;
   margin-left: 0;
   margin-right:0;
+}
+
+.x-container{
+  position:relative;
+  height:100%;
+  left:95%;
+
+}
+.banner-x{
+  position: relative;
+  height:50%;
 }
 
 /* Slideshow container */
@@ -249,6 +259,4 @@ ul{
   font-weight: lighter;
 }
 
-.banner-x{
-  height:3vh;
-}
+

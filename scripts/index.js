@@ -28,6 +28,8 @@ function showSlides(n) {
 }
 
 $( document ).ready(function() {
-    
+    $( ".x-container" ).click(function() {
+      $( ".urgent-banner" ).hide();
+    });
 });
 
