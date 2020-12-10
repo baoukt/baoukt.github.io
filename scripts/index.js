@@ -28,8 +28,14 @@ function showSlides(n) {
 }
 
 $( document ).ready(function() {
-    $( ".x-container" ).click(function() {
-      $( ".urgent-banner" ).hide();
-    });
+  $( ".x-image" ).click(function() {
+    $( ".urgent-banner" ).hide();
+  });
+
+  $("button").click(function() {
+    $('html,body').animate({
+      scrollTop: $(".events-container").offset().top},
+      'slow');
+  });
 });
 

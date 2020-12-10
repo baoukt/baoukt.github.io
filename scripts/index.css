@@ -18,9 +18,10 @@ body{
 
 /*Banner text */
 .urgent-message{
+  display:inline-block;
   color:white;
   font-family: Helvetica, Sans-Serif;
-  font-size:1em;
+  font-size:2.2vh;
   position: relative;
   text-align:center;
   top: 50%;
@@ -32,15 +33,11 @@ body{
   margin-right:0;
 }
 
-.x-container{
-  position:relative;
-  height:100%;
-  left:95%;
-
-}
-.banner-x{
-  position: relative;
+.x-image{
   height:50%;
+  float:right;
+  margin-top:0.6%;
+  margin-right:2%;
 }
 
 /* Slideshow container */
@@ -68,12 +65,6 @@ body{
   font-family: 'Bebas Neue', cursive;
 
 }
-
-/* Logo (image) overlay */
-/*.overlay-container{
-  position:absolute;
-  width:500px;
-}*/
 
 /* Hide the images by default */
 .mySlides {
@@ -113,8 +104,8 @@ body{
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 2vh;
-  width: 2vh;
+  height: 1.5vh;
+  width: 1.5vh;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
@@ -176,7 +167,7 @@ body{
 
 }
 
-.mission{
+.events-button{
   background-color: #009cad;
   font-family: 'Nunito', sans-serif;
   border: none;
@@ -265,5 +256,61 @@ ul{
   font-size:3.5vh;
   font-weight: lighter;
 }
+
+.events-container{
+  position:relative;
+  background-color:white;
+  top:-18%;
+  height:55%;
+  /*left:2%;
+  margin-right:4%;*/
+}
+
+.events-title{
+  position:relative;
+  color:darkorange;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: lighter;
+  font-size:11vh;
+  margin-left:5%;
+  top:5%;
+}
+
+#events-link{
+  position:relative;
+  font-family: 'Nunito', sans-serif;
+  color:black;
+  float: right;
+  margin-right:4vw;
+  font-size:3vh;
+  top:15%;
+
+}
+
+.tile-container{
+  display:flex;
+  margin-top:5%;
+  justify-content: space-around;
+}
+
+.tile{
+  height:24vh;
+  width:35vh;
+  border: 2px solid #009cad;
+  border-radius: 12px;
+}
+
+.event-text{
+  font-family: 'Bebas Neue', cursive;
+  color:#009cad;
+  padding:30%;
+  font-size:5vh;
+}
+
+
+
+
+
+
 
 
