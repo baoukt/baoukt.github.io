@@ -32,7 +32,7 @@ $( document ).ready(function() {
     $( ".urgent-banner" ).hide();
   });
 
-  $("button").click(function() {
+  $("button.events-button").click(function() {
     $('html,body').animate({
       scrollTop: $(".events-container").offset().top},
       'slow');
