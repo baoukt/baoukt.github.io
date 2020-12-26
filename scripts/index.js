@@ -37,5 +37,12 @@ $( document ).ready(function() {
       scrollTop: $(".events-container").offset().top},
       'slow');
   });
+
+  $("button.aboutus").click(function() {
+    $('html,body').animate({
+      scrollTop: $(".about-container").offset().top},
+      'slow');
+  });
+
 });
 
