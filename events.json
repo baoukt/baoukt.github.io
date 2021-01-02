@@ -1,0 +1,8 @@
+{
+	"events": 
+	[
+		{"name": "MLK Day", "description": "Happy MLK Day!", "date": "20 Jan 2020 00:00:00 EST"},
+		{"name": "New Years Day", "description": "Happy New Year!", "date": "1 Jan 2021 00:00:00 EST"},
+		{"name": "New York YP Conference", "description": "Spring Conference 2021", "date": "24 Apr 2021 00:00:00 EST"}
+	]
+}
