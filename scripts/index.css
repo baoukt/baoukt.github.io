@@ -163,6 +163,7 @@ body{
   width:13vw;
   font-size: 2.5vh;
   border-radius: 12px;
+  margin-right:60px;
   font-weight:bolder;
 
 }
@@ -178,7 +179,6 @@ body{
   width:13vw;
   font-size: 2.5vh;
   border-radius: 12px;
-  margin-right:50px;
   font-weight:bolder;
 }
 
@@ -260,7 +260,7 @@ ul{
 .events-container{
   position:relative;
   background-color:white;
-  top:-18%;
+  top:-19%;
   height:55%;
   /*left:2%;
   margin-right:4%;*/
@@ -279,6 +279,7 @@ ul{
 #events-link{
   position:relative;
   font-family: 'Nunito', sans-serif;
+  font-weight: bolder;
   color:black;
   float: right;
   margin-right:4vw;
@@ -300,15 +301,100 @@ ul{
   border-radius: 12px;
 }
 
-.event-title{
+.event-text{
   font-family: 'Bebas Neue', cursive;
   color:#009cad;
   padding:30%;
   font-size:5vh;
 }
 
-.event-text{
-  align-items: flex-start;
-  font-family: 'Times New Roman', cursive;
-  color: #000000;
+.event-right-button{
+  margin-top:4%;
+  height:4%;
+  width:4%;
 }
+
+.event-left-button{
+  margin-top:4%;
+  height:4%;
+  width:4%;
+}
+
+.about-container{
+  position:relative;
+  margin-top:-6%;
+  height:60%;
+  background-color:white;
+}
+
+.about-banner{
+  position:relative;
+  height:30%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.banner-title{
+  position:relative;
+  font-family: 'Bebas Neue', cursive;
+  color:white;
+  font-size:8vh;
+  margin-left:5%;
+  top:30%;
+}
+
+.who-body{
+  position:relative;
+  height:70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.who-body-title{
+  position:relative;
+  font-family: 'Bebas Neue', cursive;
+  color:orange;
+  font-size:6vh;
+  margin-top:8%;
+  width:18%;
+}
+
+.who-body-text{
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  margin-top:4%;
+  font-size:3vh;
+  width:55%;
+}
+
+.beliefs-body{
+  background-color:white;
+  position:relative;
+  height:60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.beliefs-body-title{
+  position:relative;
+  font-family: 'Bebas Neue', cursive;
+  color:orange;
+  font-size:6vh;
+  width:18%;
+  margin-top:6%;
+}
+
+.beliefs-body-text{
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size:3vh;
+  width:55%;
+}
+
+
+
+
+
+
+
+

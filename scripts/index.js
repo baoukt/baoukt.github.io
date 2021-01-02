@@ -32,34 +32,17 @@ $( document ).ready(function() {
     $( ".urgent-banner" ).hide();
   });
 
-  $("button").click(function() {
+  $("button.events-button").click(function() {
     $('html,body').animate({
       scrollTop: $(".events-container").offset().top},
       'slow');
   });
+
+  $("button.aboutus").click(function() {
+    $('html,body').animate({
+      scrollTop: $(".about-container").offset().top},
+      'slow');
+  });
+
 });
 
-//events
-var count = 0;
-var json = {
-	"events":[
-   {"date":'20 Jan 2020 00:00:00 EST', "name":"mlk day", "desc":"happy mlk day 2020"},
-   {"date":'1 Jan 2021 00:00:00 EST', "name":"new years", "desc":"happy 2021"},
-    {"date":'2 Jan 2021 00:00:00 EST', "name":"winter trip 2020", "desc":"hiking at great falls"},
-    {"date": '24 Apr 2021 00:00:00 EST', "name":"nyc", "desc":"spring conference 2021"}
-  ]
-}
-
-function filter (item, index) { 
-	var countid = "event"+(count+1);
-	var eventdate = Date.parse(item.date);
-  var today = Date.now();
-  if(eventdate > today && count<3){
-  	document.getElementById(countid).innerHTML += 
-    	'<text class="event-title">' + item.name + '</text>' +
-      '<text class="event-text">' + item.desc + '</text>';
-    count++;
-  }
-}
-
-json.events.forEach(filter);
