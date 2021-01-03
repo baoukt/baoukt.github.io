@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $("img.thumb").on("click", function (event) {
+  $("img.thumb-img").on("click", function (event) {
     $("div.overlay-wrapper").show();
     var src = event.target.src;
     var newsrc= src.replace("thumb","full")

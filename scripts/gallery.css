@@ -25,7 +25,7 @@
 .gallery{
 	height:45vh;
   	width:35vh;
-  	border: 2px solid #009cad;
+  	border: 4px solid #009cad;
   	border-radius: 16px;
 }
 
@@ -83,9 +83,16 @@
 
 .full{
 	position: fixed;
-	width:640px;
+	width:90vh;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	z-index:2;
+}
+
+.close{
+  position:fixed;
+  right:10px;
+  top:10px;
+  z-index:2;
 }
