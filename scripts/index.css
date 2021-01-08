@@ -301,11 +301,20 @@ ul{
   border-radius: 12px;
 }
 
-.event-text{
+.event-title{
   font-family: 'Bebas Neue', cursive;
   color:#009cad;
-  padding:30%;
+  padding:5%;
   font-size:5vh;
+  text-align: left;
+}
+
+.event-text{
+  font-family: 'Times New Romans', cursive;
+  color:#009cad;
+  padding:10%;
+  font-size:5vh;
+  text-align:center;
 }
 
 .event-right-button{

@@ -46,3 +46,29 @@ $( document ).ready(function() {
 
 });
 
+//events
+var count = 0;
+var json = {
+	"events":[
+   {"date":'20 Jan 2020 00:00:00 EST', "name":"mlk day", "desc":"happy mlk day 2020"},
+   {"date":'20 Jan 2021 00:00:00 EST', "name":"mlk day 2021", "desc":"happy mlk day"},
+    {"date":'14 Feb 2021 00:00:00 EST', "name":"valentines", "desc":"happy valentines"},
+    {"date": '24 Apr 2021 00:00:00 EST', "name":"nyc", "desc":"spring conference 2021"}
+  ]
+}
+
+function filter (item, index) { 
+	var countid = "event"+(count+1);
+	var eventdate = Date.parse(item.date);
+  var today = Date.now();
+  if(eventdate > today && count<3){
+  	document.getElementById(countid).innerHTML += 
+      '<text class="event-title">' + item.name + '</text>' +
+      '<text class="event-text">' + item.desc + '</text>'+
+      '<text class="event-text">' + eventdate.getDay() + '</text>';
+      //wait it says .getDay() is not a function?? same for getMonth and getYear.
+    count++; 
+  }
+}
+
+json.events.forEach(filter);
