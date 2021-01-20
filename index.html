@@ -81,14 +81,13 @@
     <div class="events-container">
       <text class="events-title"> UPCOMING EVENTS </text>
       <a id="events-link" href="">VIEW ALL EVENTS</a>
+      <!-- TODO: When are we implementing the "View All Events" display? -->
+      <!-- TODO: Are we planning on having functioning left/right buttons? -->
       <div class="tile-container">
+        <!--<img class="event-left-button" src="images/event-left-button.png">-->
+        <!--<img class="event-right-button" src="images/event_right_button.png">-->
         <img class="event-left-button" src="images/event-left-button.png">
-        <div id="event1" class="tile tile-1">
-        </div>
-        <div id="event2" class="tile tile-2">
-        </div>
-        <div id="event3" class="tile tile-3">
-        </div>
+        <div id="events"></div>
         <img class="event-right-button" src="images/event_right_button.png">
       </div>
     </div>
@@ -111,6 +110,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
       </div>
     </div>
 
+    <script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
     <script src="scripts/index.js"></script>
   </body>
 </html>
