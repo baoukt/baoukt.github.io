@@ -23,10 +23,10 @@
 }
 
 .gallery{
-	height:45vh;
-  	width:35vh;
+	height:52vh;
+  	width:40vh;
   	border: 4px solid #009cad;
-  	border-radius: 16px;
+  	border-radius: 18px;
 }
 
 .text{
@@ -39,8 +39,8 @@
 .event-name{
 	text-align:center;
 	font-family: 'Bebas Neue', cursive;
-	color:#009cad;
-	font-size:6vh;
+	color:darkorange;
+	font-size:5.5vh;
 }
 
 .event-date{
@@ -58,11 +58,13 @@
 	margin-top:2%;
 }
 
-.thumb-img{
+.gallery-img{
 	position:relative;
 	height:50%;
 	width:100%;
 	object-fit: cover;
+	border-radius: 12px;
+	margin-bottom:1.5vh;
 }
 
 .overlay-wrapper {
@@ -81,18 +83,19 @@
 	 opacity: 0.8;
 }
 
-.full{
-	position: fixed;
-	width:90vh;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	z-index:2;
-}
-
 .close{
   position:fixed;
   right:10px;
   top:10px;
   z-index:2;
+}
+
+.pa-gallery-player-widget{
+	position:fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index:3;
+	width:65vw;
+	height:55vh;
 }
