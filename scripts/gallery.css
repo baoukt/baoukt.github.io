@@ -9,10 +9,12 @@
 
 .title-text{
 	position:relative;
- 	color:darkorange;
- 	font-family: 'Bebas Neue', cursive;
- 	font-weight: lighter;
- 	font-size:10vh;
+	color:darkorange;
+	font-family: 'Bebas Neue', cursive;
+	font-weight: lighter;
+	font-size:9vh;
+	top:3vh;
+	left:3vh
 }
 
 .gallery-main{
@@ -98,4 +100,15 @@
 	z-index:3;
 	width:65vw;
 	height:55vh;
+}
+
+#back{
+	position:relative;
+	font-family: 'Nunito', sans-serif;
+	font-weight: bolder;
+	color:black;
+	float: right;
+	margin-right:7vw;
+	font-size:4vh;
+	top:5vh;
 }
