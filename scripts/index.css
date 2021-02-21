@@ -257,11 +257,11 @@ ul{
   font-weight: lighter;
 }
 
-.events-container{
+#events-container{
   position:relative;
   background-color:white;
   top:-19%;
-  height:55%;
+  height:64%;
   /*left:2%;
   margin-right:4%;*/
 }
@@ -271,9 +271,9 @@ ul{
   color:darkorange;
   font-family: 'Bebas Neue', cursive;
   font-weight: lighter;
-  font-size:11vh;
+  font-size:10vh;
   margin-left:5%;
-  top:5%;
+  top:7%;
 }
 
 #events-link{
@@ -329,16 +329,15 @@ ul{
   width:4%;
 }
 
-.about-container{
+#about-container{
   position:relative;
   margin-top:-6%;
-  height:60%;
   background-color:white;
 }
 
 .about-banner{
   position:relative;
-  height:30%;
+  height:16vh;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -354,7 +353,6 @@ ul{
 
 .who-body{
   position:relative;
-  height:70%;
   display: flex;
   justify-content: space-around;
 }
@@ -377,9 +375,9 @@ ul{
 }
 
 .beliefs-body{
+  position:relative;
   background-color:white;
   position:relative;
-  height:60%;
   display: flex;
   justify-content: space-around;
 }
@@ -400,9 +398,15 @@ ul{
   width:55%;
 }
 
+.calendar{
+  display:flex;
+  justify-content: center;
+  margin-top: 6.5vh;
+}
 
-
-
+iframe{
+  width:60vw;
+  height:40vh;
 
 
 

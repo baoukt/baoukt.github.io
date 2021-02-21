@@ -53,8 +53,8 @@
     <!-- New? Text and Buttons -->
     <div class="newmember-container">
       <h2 class="newmember-text"> NEW TO THE CHURCH IN GAITHERSBURG? </h2>
-      <button class="events-button"> EVENTS </button>
-      <button class="aboutus"> ABOUT US </button>
+      <button class="events-button" onclick="scroll_events()"> EVENTS </button>
+      <button class="aboutus" onclick="scroll_about()"> ABOUT US </button>
     </div>
 
     <div class="absolute-container">
@@ -78,21 +78,24 @@
       </div>
     </div>
 
-    <div class="events-container">
+    <div id="events-container">
       <text class="events-title"> UPCOMING EVENTS </text>
-      <a id="events-link" href="scripts/calendar.html">Calendar</a>
+      <div class="calendar">
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffd780&amp;ctz=America%2FNew_York&amp;showTitle=1&amp;title=CIG%20Events&amp;showNav=1&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%237986CB" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+      </div>
+<!--      <a id="events-link" href="scripts/">Calendar</a>-->
       <!-- TODO: When are we implementing the "View All Events" display? -->
       <!-- TODO: Are we planning on having functioning left/right buttons? -->
-      <div class="tile-container">
+<!--      <div class="tile-container">-->
         <!--<img class="event-left-button" src="images/event-left-button.png">-->
         <!--<img class="event-right-button" src="images/event_right_button.png">-->
-        <img class="event-left-button" src="images/event-left-button.png">
-        <div id="events"></div>
-        <img class="event-right-button" src="images/event_right_button.png">
-      </div>
+<!--        <img class="event-left-button" src="images/event-left-button.png">-->
+<!--        <div id="events"></div>-->
+<!--        <img class="event-right-button" src="images/event_right_button.png">-->
+<!--      </div>-->
     </div>
 
-    <div class="about-container">
+    <div id="about-container">
       <div class="about-banner" style="background-image: url('images/aboutus_banner.jpg');">
         <text class="banner-title"> ABOUT US </text>
       </div>

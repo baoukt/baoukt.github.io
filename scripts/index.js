@@ -1,3 +1,13 @@
+function scroll_events(){
+  var element = document.getElementById("events-container");
+  element.scrollIntoView({block: 'center', behavior:'smooth'});
+}
+
+function scroll_about(){
+  var element = document.getElementById("about-container");
+  element.scrollIntoView({block: 'center',behavior:'smooth'});
+}
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -49,19 +59,16 @@ $(document).ready(function () {
     $(".urgent-banner").hide();
   });
 
-  $("button.events-button").click(function () {
-    $('html,body').animate({
-          scrollTop: $(".events-container").offset().top
-        },
-        'slow');
-  });
-
-  $("button.aboutus").click(function () {
-    $('html,body').animate({
-          scrollTop: $(".about-container").offset().top
-        },
-        'slow');
-  });
+  // $("button.events-button").click(function () {
+  //   event.scrollIntoView({block: 'center',});
+  // });
+  //
+  // $("button.aboutus").click(function () {
+  //   $('html,body').animate({
+  //         scrollTop: $(".about-container").offset().top
+  //       },
+  //       'slow');
+  // });
 
   // Reading in values from the external JSON file with the D3 library
   d3.json("events.json", function (data) {
