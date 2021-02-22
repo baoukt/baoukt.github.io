@@ -59,17 +59,6 @@ $(document).ready(function () {
     $(".urgent-banner").hide();
   });
 
-  // $("button.events-button").click(function () {
-  //   event.scrollIntoView({block: 'center',});
-  // });
-  //
-  // $("button.aboutus").click(function () {
-  //   $('html,body').animate({
-  //         scrollTop: $(".about-container").offset().top
-  //       },
-  //       'slow');
-  // });
-
   // Reading in values from the external JSON file with the D3 library
   d3.json("events.json", function (data) {
     let eventLength = data.events.length;

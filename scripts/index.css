@@ -3,13 +3,13 @@ body{
   margin:0;
   height:100vh;
   overflow-x: hidden;
-  background-color:lightgray;
+  background-color:#ededed;
 }
 
 /*Banner container */
 .urgent-banner{
   position: relative;
-  background-color: red;
+  background-color: #EB5A5A;
   width:100%;
   height:5%;
   margin:0;
@@ -38,12 +38,13 @@ body{
   float:right;
   margin-top:0.6%;
   margin-right:2%;
+  z-index: 3;
 }
 
 /* Slideshow container */
 .slideshow-container {
   position: relative;
-  margin: auto;
+  margin-bottom:-10px;
   height:50%;
 }
 
@@ -136,15 +137,17 @@ body{
 }
 
 .newmember-container{
+  position:relative;
   display:flex;
   background-color:white;
   justify-content: space-between;
   align-items: center;
-  margin-top:10px;
+  margin-top:1vh;
+  height:15%;
 }
 
 .newmember-text{
-  color:darkorange;
+  color:#6eafe8;
   font-family: 'Bebas Neue', cursive;
   font-weight: lighter;
   font-size:7.5vh;
@@ -153,7 +156,7 @@ body{
 }
 
 .aboutus{
-  background-color:darkorange;
+  background-color:#6eafe8;
   font-family: 'Nunito', sans-serif;
   border: none;
   color: white;
@@ -169,7 +172,7 @@ body{
 }
 
 .events-button{
-  background-color:darkorange;
+  background-color:#6eafe8;
   font-family: 'Nunito', sans-serif;
   border: none;
   color: white;
@@ -191,23 +194,24 @@ body{
 .yearly-pic-container{
   position:absolute;
   height:70%;
-  width:55%;
-  margin-left:43%;
+  width:56.5%;
+  margin-left:42%;
   margin-top:5vh;
 }
 
 .yearly-pic{
   position:relative;
-  height:100%;
+  height:96.5%;
   width:100%;
   margin:left:50px;
+  margin-top:-3vh;
 }
 
 .contact-container{
   position:absolute;
-  margin-top:42vh;
-  margin-left:2%;
   background-color:white;
+  margin-top:37vh;
+  margin-left:2%;
   width:31%;
   padding:0% 4% 4% 4%;
   height:25%;
@@ -215,7 +219,7 @@ body{
 
 .contact-title{
   text-align: center;
-  color:darkorange;
+  color:#6eafe8;
   font-family: 'Bebas Neue', cursive;
   font-size:6vh;
   font-weight: lighter;
@@ -224,7 +228,7 @@ body{
 }
 
 .contact-info{
-  color:#009cad;
+  color:black;
   font-family: 'Bebas Neue', cursive;
   font-size:3.5vh;
   font-weight: lighter;
@@ -232,9 +236,9 @@ body{
 
 .announcement-container{
   position:absolute;
-  margin-top:5vh;
-  margin-left:2%;
+  margin-top:2vh;
   background-color:white;
+  margin-left:2%;
   padding:0% 4% 4% 4%;
   height:25%;
   width:31%;
@@ -242,7 +246,7 @@ body{
 
 .announcement-title{
   text-align: center;
-  color:darkorange;
+  color:#6eafe8;
   font-family: 'Bebas Neue', cursive;
   font-size:6vh;
   font-weight: lighter;
@@ -251,7 +255,7 @@ body{
 }
 
 ul{
-  color:#009cad;
+  color:black;
   font-family: 'Bebas Neue', cursive;
   font-size:3.5vh;
   font-weight: lighter;
@@ -260,7 +264,7 @@ ul{
 #events-container{
   position:relative;
   background-color:white;
-  top:-19%;
+  top:-28.2%;
   height:64%;
   /*left:2%;
   margin-right:4%;*/
@@ -268,12 +272,12 @@ ul{
 
 .events-title{
   position:relative;
-  color:darkorange;
+  color:white;
   font-family: 'Bebas Neue', cursive;
   font-weight: lighter;
-  font-size:10vh;
+  font-size:8vh;
   margin-left:5%;
-  top:7%;
+  top:19%;
 }
 
 #events-link{
@@ -309,6 +313,11 @@ ul{
   text-align: left;
 }
 
+.title-banner{
+  background-color: #6eafe8;
+  height:14.5vh;
+}
+
 .event-text{
   font-family: 'Times New Romans', cursive;
   color:#009cad;
@@ -331,15 +340,16 @@ ul{
 
 #about-container{
   position:relative;
-  margin-top:-6%;
+  margin-top:-13.2%;
   background-color:white;
 }
 
 .about-banner{
   position:relative;
-  height:16vh;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  height:14.5vh;
+  background-color:#6eafe8;
+  /*background-repeat: no-repeat;*/
+  /*background-size: 100% 100%;*/
 }
 
 .banner-title{
@@ -348,7 +358,7 @@ ul{
   color:white;
   font-size:8vh;
   margin-left:5%;
-  top:30%;
+  top:20%;
 }
 
 .who-body{
@@ -360,17 +370,17 @@ ul{
 .who-body-title{
   position:relative;
   font-family: 'Bebas Neue', cursive;
-  color:orange;
+  color:#6eafe8;
   font-size:6vh;
-  margin-top:8%;
+  margin-top:6%;
   width:18%;
 }
 
 .who-body-text{
   position: relative;
-  font-family: 'Montserrat', sans-serif;
-  margin-top:4%;
-  font-size:3vh;
+  font-family: 'Verdana';
+  margin-top:2%;
+  font-size:2.5vh;
   width:55%;
 }
 
@@ -385,17 +395,18 @@ ul{
 .beliefs-body-title{
   position:relative;
   font-family: 'Bebas Neue', cursive;
-  color:orange;
+  color:#6eafe8;
   font-size:6vh;
   width:18%;
-  margin-top:6%;
+  margin-top:3%;
 }
 
 .beliefs-body-text{
   position: relative;
-  font-family: 'Montserrat', sans-serif;
-  font-size:3vh;
+  font-family: 'Verdana';
+  font-size:2.5vh;
   width:55%;
+  margin-top:-0.3vh;
 }
 
 .calendar{
