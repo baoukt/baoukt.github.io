@@ -8,6 +8,11 @@ function scroll_about(){
   element.scrollIntoView({block: 'center',behavior:'smooth'});
 }
 
+function hide(){
+  var x = document.getElementById("urgent-banner");
+  x.style.display = "none";
+}
+
 var slideIndex = 1;
 showSlides(slideIndex);
 

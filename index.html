@@ -14,9 +14,18 @@
   <body>
 
     <!-- Urgent announcment banner -->
-    <div class="urgent-banner">
+    <div id="urgent-banner">
       <h4 class="urgent-message"> COVID-19 Update: In this season, our weekly meetings are online Sundays at 10AM.</h4>
-      <img class="x-image" src="images/banner-x.png"> 
+      <img class="x-image" src="images/banner-x.png" onclick="hide()">
+    </div>
+
+    <div class="navigation-container">
+      <div class="button-container">
+        <a class="active" href="index.html">Home</a>
+        <a href="scripts/gallery.html">Gallery Page</a>
+        <a onclick="scroll_events()"> Events </a>
+        <a onclick="scroll_about()"> About Us </a>
+      </div>
     </div>
 
     <!-- Image Gallery -->
@@ -71,7 +80,7 @@
       <div class="announcement-container">
         <h2 class="announcement-title"> ANNOUNCEMENTS </h2>
         <ul>
-          <li><a href="scripts/gallery.html">Gallery Page</a></li>
+          <li>Lorem ipsum</li>
           <li>consectetur adipiscing elit, sed </li>
           <li>do eiusmod tempor incididunt ut </li>
         </ul>

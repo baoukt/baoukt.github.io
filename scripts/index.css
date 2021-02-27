@@ -7,7 +7,7 @@ body{
 }
 
 /*Banner container */
-.urgent-banner{
+#urgent-banner{
   position: relative;
   background-color: #EB5A5A;
   width:100%;
@@ -155,35 +155,35 @@ body{
 
 }
 
-.aboutus{
-  background-color:#6eafe8;
-  font-family: 'Nunito', sans-serif;
-  border: none;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  height:7vh;
-  width:13vw;
-  font-size: 2.5vh;
-  border-radius: 12px;
-  margin-right:60px;
-  font-weight:bolder;
+/*.aboutus{*/
+/*  background-color:#6eafe8;*/
+/*  font-family: 'Nunito', sans-serif;*/
+/*  border: none;*/
+/*  color: white;*/
+/*  text-align: center;*/
+/*  text-decoration: none;*/
+/*  height:7vh;*/
+/*  width:13vw;*/
+/*  font-size: 2.5vh;*/
+/*  border-radius: 12px;*/
+/*  margin-right:60px;*/
+/*  font-weight:bolder;*/
 
-}
+/*}*/
 
-.events-button{
-  background-color:#6eafe8;
-  font-family: 'Nunito', sans-serif;
-  border: none;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  height:7vh;
-  width:13vw;
-  font-size: 2.5vh;
-  border-radius: 12px;
-  font-weight:bolder;
-}
+/*.events-button{*/
+/*  background-color:#6eafe8;*/
+/*  font-family: 'Nunito', sans-serif;*/
+/*  border: none;*/
+/*  color: white;*/
+/*  text-align: center;*/
+/*  text-decoration: none;*/
+/*  height:7vh;*/
+/*  width:13vw;*/
+/*  font-size: 2.5vh;*/
+/*  border-radius: 12px;*/
+/*  font-weight:bolder;*/
+/*}*/
 
 .absolute-container{
   position:relative;
@@ -415,10 +415,42 @@ ul{
   margin-top: 6.5vh;
 }
 
-iframe{
-  width:60vw;
-  height:40vh;
+iframe {
+  width: 60vw;
+  height: 40vh;
+}
+/* Add a black background color to the top navigation */
+.navigation-container {
+  background-color: #338edf;
+  overflow: hidden;
+}
 
+.button-container{
+  margin-left:5.5vw;
+}
 
+/* Style the links inside the navigation bar */
+.button-container a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 2vh 6vh;
+  text-decoration: none;
+  font-size: 3.3vh;
+  font-family: 'Bebas Neue', cursive;
+
+}
+
+/* Change the color of links on hover */
+.button-container a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.button-container a.active {
+  background-color: #008080;
+  color: white;
+}
 
 

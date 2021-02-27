@@ -14,7 +14,7 @@
 	font-family: 'Bebas Neue', cursive;
 	font-weight: lighter;
 	font-size:9vh;
-	top:1vh;
+	top:0.5vh;
 	left:7vh;
 }
 
@@ -113,5 +113,39 @@
 	float: right;
 	margin-right:7vw;
 	font-size:4vh;
-	top:5vh;
+	top:3.5vh;
+}
+
+/* Add a black background color to the top navigation */
+.navigation-container {
+	background-color: #338edf;
+	overflow: hidden;
+}
+
+.button-container{
+	margin-left:5.5vw;
+}
+
+/* Style the links inside the navigation bar */
+.button-container a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 2vh 6vh;
+	text-decoration: none;
+	font-size: 3.3vh;
+	font-family: 'Bebas Neue', cursive;
+
+}
+
+/* Change the color of links on hover */
+.button-container a:hover {
+	background-color: white;
+	color: black;
+}
+
+/* Add a color to the active/current link */
+.button-container a.active {
+	background-color: #008080;
+	color: white;
 }
