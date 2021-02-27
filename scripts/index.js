@@ -46,6 +46,21 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
 }
 
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3500); // Change image every 2 seconds
+}
+
 function filterEvents(item, index) {
   console.log(index);
 
@@ -59,18 +74,18 @@ function filterEvents(item, index) {
 
 }
 
-$(document).ready(function () {
-  $(".x-image").click(function () {
-    $(".urgent-banner").hide();
-  });
-
-  // Reading in values from the external JSON file with the D3 library
-  d3.json("events.json", function (data) {
-    let eventLength = data.events.length;
-    data.events.forEach(filterEvents);
-
-    console.log(data);
-    console.log(eventLength);
-  });
-
-});
+// $(document).ready(function () {
+//   $(".x-image").click(function () {
+//     $(".urgent-banner").hide();
+//   });
+//
+//   // Reading in values from the external JSON file with the D3 library
+//   d3.json("events.json", function (data) {
+//     let eventLength = data.events.length;
+//     data.events.forEach(filterEvents);
+//
+//     console.log(data);
+//     console.log(eventLength);
+//   });
+//
+// });
