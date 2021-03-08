@@ -3,19 +3,22 @@
 }
 
 .gallery-title{
-	background-color: #6eafe8;
-	margin-top:1%;
+	background-color: white;
+	margin-top:0%;
 	margin-left:0%;
 }
 
 .title-text{
 	position:relative;
-	color:white;
+	color:black;
 	font-family: 'Bebas Neue', cursive;
 	font-weight: lighter;
 	font-size:9vh;
 	top:0.5vh;
-	left:7vh;
+	/*left:7vh;*/
+	text-align: center;
+	display: flex;
+	justify-content: center;
 }
 
 .gallery-main{
@@ -107,9 +110,9 @@
 
 #back{
 	position:relative;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Bebas Neue', cursive;
 	font-weight: bolder;
-	color:black;
+	color:white;
 	float: right;
 	margin-right:7vw;
 	font-size:4vh;
